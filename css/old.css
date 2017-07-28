@@ -1,0 +1,133 @@
+
+.red {
+  background: red;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.short {
+  color: #333;
+  font-size: 11px;
+  margin: 10px 10px 10px 10px;
+}
+
+.leftMargin {
+  margin-left: 20px;
+}
+
+.topMargin {
+  margin-top: 20px;
+}
+
+.container div.signinForm, .container div.signupForm{
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: relative;
+  width: 50%;
+  margin-top: 30px;
+  text-align: left;
+  padding: 0px 20px 10px 30px;
+  margin-bottom: 30px;
+}
+
+div.signupForm h1, div.signinForm h1 {
+  font-weight: bold;
+}
+
+.alert{
+  margin-top: -21px;
+}
+
+.separator {
+  text-align: center;
+  font-size:  14px;
+  height: 0.8em;
+  border-bottom: 1px solid #b2b2b2;
+  color: #b2b2b2;
+}
+
+.separator:first-line {
+  background-color: white;
+}
+
+/* FOOTER */
+.panel-footer {
+  /*margin-top: 30px;*/
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+  background: #333333;
+  color: white
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#contact, #address {
+  line-height: 2;
+}
+#contact > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: yellow;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* END FOOTER */
+
+@media (max-width: 767px) {
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+}
+
+
+
+/*Carousel*/
+
+.carousel-inner {
+  height: 300px;
+}
+
+.carousel-inner>.item>img {
+  display: block;
+  max-width: 100%;
+  height: 300px;
+  min-width: 100%;
+}
+
+.carousel {
+  margin-top: -21px;
+}
+/*Buttons*/
+
+.btnLong {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.signup_btn,.logout_btn {
+  width: 75%;
+  text-align: center;
+}
